@@ -229,7 +229,9 @@ This attribute is optional (if this parameter doesn't exist the polling daemon w
 considering the JSON native type (only for NGSIv2).
 * **multiCore**: When enabled, the IoT Agents runs in multi-thread environment to 
 take advantage of multi-core systems. It allows two values `true` or `false`. This attribute 
-is optional with default to false, which means that the IoTAgent runs in a single thread. 
+is optional with default to false, which means that the IoTAgent runs in a single thread.
+For more details about multi-core functionality, please refer to the 
+[Cluster](https://nodejs.org/api/cluster.html) module in Node.js.
 
 
 ### Configuration using environment variables
